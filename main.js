@@ -1,7 +1,6 @@
 var http = require('http');
 var fs = require('fs');
 var url = require('url');
-const { listenerCount } = require('process');
 
 function templateHTML(title, list, body) {
     return `
